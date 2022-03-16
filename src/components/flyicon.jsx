@@ -92,14 +92,14 @@ const FlyIcons = () => {
             </div>
             <div className="integration-icon outreach">
                 <img
-                    src="/weather--react/2725760.png"
+                    src="/-Yair-Levi-14-03-2022//2725760.png"
                     alt="outreach logo"
                     className="lazyloaded"
                     data-ll-status="loaded"
                 />
                 <noscript>
                     <img
-                        src="/weather--react/2725760.png"
+                        src="/-Yair-Levi-14-03-2022//2725760.png"
                         alt="outreach logo"
                     />
                 </noscript>
@@ -107,14 +107,14 @@ const FlyIcons = () => {
             <div className="integration-icon microsoft">
                 <a href="tel:+972527249942">
                     <img
-                        src="/weather--react/2936030.png"
+                        src="/-Yair-Levi-14-03-2022//2936030.png"
                         alt="microsoft logo"
                         className="lazyloaded"
                         data-ll-status="loaded"
                     />
                     <noscript>
                         <img
-                            src="/weather--react/2936030.png"
+                            src="/-Yair-Levi-14-03-2022//2936030.png"
                             alt="microsoft logo"
                         />
                     </noscript>
@@ -151,14 +151,14 @@ const FlyIcons = () => {
             <div className="integration-icon snowflake">
                 <a href="mailto:hthrkuh8@gmail.com">
                     <img
-                        src="/weather--react/3296464.png"
+                        src="/-Yair-Levi-14-03-2022//3296464.png"
                         alt="snowflake logo"
                         className="lazyloaded"
                         data-ll-status="loaded"
                     />
                     <noscript>
                         <img
-                            src="/weather--react/3296464.png"
+                            src="/-Yair-Levi-14-03-2022//3296464.png"
                             alt="snowflake logo"
                         />
                     </noscript>

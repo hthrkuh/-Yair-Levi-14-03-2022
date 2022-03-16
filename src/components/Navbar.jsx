@@ -20,7 +20,7 @@ class Navbar extends Component {
                 <div className="container-fluid">
 
                     <NavLink className="navbar-brand" to={{
-                        pathname: "/weather--react",
+                        pathname: "/-Yair-Levi-14-03-2022/",
                         search: "",
                         hash: "",
                         state: {}

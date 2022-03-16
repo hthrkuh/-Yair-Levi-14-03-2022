@@ -24,7 +24,7 @@ const FOOTER = () => <footer>
       left: 0,
     }}>
       <a
-        href='https://github.com/hthrkuh/weather--react'
+        href='https://github.com/hthrkuh/-Yair-Levi-14-03-2022/'
         className='github-corner'
         aria-label='View source on GitHub'
         target='_blank'
@@ -109,7 +109,7 @@ class Index extends Component {
                   handleDaySelection={this.handleDaySelection}
                   fav={this.fav}
                 />} />
-                <Route path="/weather--react" exact component={() => <App
+                <Route path="/-Yair-Levi-14-03-2022/" exact component={() => <App
                   initfav={this.initfav}
                   temperatureConverter={this.temperatureConverter}
                   handleDaySelection={this.handleDaySelection}
