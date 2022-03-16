@@ -1,7 +1,7 @@
 {
   "name": "my-weather-app",
   "version": "0.1.0",
-  "homepage": "https://hthrkuh.github.io/Yair-Levi-14-03-2022",
+  "homepage": "https://hthrkuh.github.io/-Yair-Levi-14-03-2022",
   "private": true,
   "dependencies": {
     "@sentry/browser": "^6.3.6",
