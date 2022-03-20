@@ -32,7 +32,7 @@ export function getLocations(q = "Tel Aviv") {
 
          locations = await new Promise((resolve, reject) => {
             resolve(http.get(
-               `http://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${api_keys[i]}&q=${q}`
+               `https://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${api_keys[i]}&q=${q}`
             ).catch((x) => {
                console.error(x)
                toast.info("API KEY HAS BEEN CHANGED")
