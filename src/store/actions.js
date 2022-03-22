@@ -12,7 +12,7 @@ export function typePlacename(e) {
 
    let res = /[^A-Za-z]/ig.test(e);
    let err
-   if (!res && e !== "") {
+   if (res && e !== "") {
       err = true
    } else {
       err = false
