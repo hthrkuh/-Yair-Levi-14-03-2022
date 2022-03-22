@@ -87,7 +87,7 @@ class DropdownSelect extends Component {
           onChange={this.onChange}
           onInputChange={this.onInputChange}
           noOptionsMessage={({ inputValue }) => {
-            return /[^A-Za-z]/ig.test(inputValue)
+            return /[^A-Za-z-\s]/ig.test(inputValue)
               ? "Searching should be done in English letters only" : "No results found"
           }}
         />

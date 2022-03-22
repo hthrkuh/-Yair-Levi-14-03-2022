@@ -10,7 +10,7 @@ export const SelectedOption = "SelectedOption"
 
 export function typePlacename(e) {
 
-   let res = /[^A-Za-z]/ig.test(e);
+   let res = /[^A-Za-z-\s]/ig.test(e);
    let err
    if (res && e !== "") {
       err = true
@@ -24,7 +24,11 @@ export function typePlacename(e) {
 }
 
 export function getLocations(q = "Tel Aviv") {
+
    return async function () {
+      if (/[^A-Za-z-\s]/ig.test(q))
+         return []
+
       let locations
       const api_keys = JSON.parse(process.env.REACT_APP_API_KEYS)
       for (let i = 0; i < api_keys.length; i++) {
