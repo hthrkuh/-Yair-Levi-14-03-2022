@@ -58,7 +58,6 @@ export function getLocations(q = "Tel Aviv") {
          }
 
       }
-      debugger
       return cityCountry
    }
 };
