@@ -100,7 +100,7 @@ class Index extends Component {
             <header className={` bg-${colorTheme} text-${theme}`} >
               <Navbar />
             </header>
-            <main className="flex-column" style={{ minHeight: "450px" }}>
+            <main className="flex-column" style={{ minHeight: "100vh" }}>
               <Switch>
                 <Route path="/MyFav" component={() => <MyFav
                   initfav={this.initfav}
