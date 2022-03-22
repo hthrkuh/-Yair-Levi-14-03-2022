@@ -25,7 +25,6 @@ export function typePlacename(e) {
 
 export function getLocations(q = "Tel Aviv") {
    return async function () {
-
       let locations
       const api_keys = JSON.parse(process.env.REACT_APP_API_KEYS)
       for (let i = 0; i < api_keys.length; i++) {
@@ -52,13 +51,14 @@ export function getLocations(q = "Tel Aviv") {
       const cityCountry = [];
       if (locations?.data) {
          for (let location of locations.data) {
-            let label = location.AdministrativeArea.LocalizedName;
+            let label = location.AdministrativeArea.LocalizedName + " - " + location.LocalizedName;
             let value = location.Country.LocalizedName;
             let code = location.Key;
             cityCountry.push({ label, value, code });
          }
 
       }
+      debugger
       return cityCountry
    }
 };
