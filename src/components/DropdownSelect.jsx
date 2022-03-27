@@ -33,7 +33,7 @@ class DropdownSelect extends Component {
         backgroundColor: this.context.colorTheme === "dark" ?
           state.isFocused ? "#2684FF" : "#212529 !important"
           :
-          state.isFocused ? "#2684FF" : console.log(state, "lll"),
+          state.isFocused ? "#2684FF" : "white !important",
       }),
       singleValue: (provided, state) => {
         const opacity = state.isDisabled ? 0.5 : 1;

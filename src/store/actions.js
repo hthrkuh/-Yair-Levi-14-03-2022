@@ -55,8 +55,8 @@ export function getLocations(q = "Tel Aviv") {
       const cityCountry = [];
       if (locations?.data) {
          for (let location of locations.data) {
-            let label = location.AdministrativeArea.LocalizedName + " - " + location.LocalizedName;
             let value = location.Country.LocalizedName;
+            let label = value + " - " + location.AdministrativeArea.LocalizedName + " - " + location.LocalizedName;
             let code = location.Key;
             cityCountry.push({ label, value, code });
          }

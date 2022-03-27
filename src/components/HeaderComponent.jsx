@@ -7,7 +7,7 @@ import { isEmpty } from 'lodash-es'
 const HeaderComponent = () => {
   const { theme, toggleTheme } = useContext(ThemeContext)
   return (
-    <div className='flex justify-between items-center px-5 py-5'>
+    <div className='flex justify-between items-center px-5'>
 
       <div>
         {/* below condition to avoid toggle glitch effect on page refresh */}
